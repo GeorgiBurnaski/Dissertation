@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Constatnts:
-    total_people:int = 1000000
+    total_people: int = 1000000
     example_age: int = 58
     total_funds: float = 10000
 

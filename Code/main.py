@@ -1,5 +1,4 @@
-import actuarial_calculations
-import plotter
+import Code.Fun.plotter as plotter
 
 
 #Generate constant 
