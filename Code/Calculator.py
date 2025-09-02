@@ -3,8 +3,7 @@ from math import prod
 import csv
 from scipy.stats import norm
 
-import constants
-import Person
+import Constants as constants
 
 ## Creates a new age object with all the actuarial factors calculated
 @dataclass
@@ -220,6 +219,7 @@ class Instalment_pension(Pension):
         self.k=self.get_k()
         self.pension=self.get_pension()
 #----------------------------------------------------------------------------------------------------------------------
+## Test cases
 print(Simple_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, saldo=100000).pension)
 print(Guaranteed_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, guaranteed_period_months=60, saldo=100000).pension)
 print(Instalment_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, instalment_ammount=500, instalment_period_months=60, saldo=100000).pension)

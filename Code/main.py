@@ -1,6 +1,3 @@
-import Code.Fun.plotter as plotter
-
-
 #Generate constant 
 #   Guide ==> constants.Constants(total_people, example_age, total_funds, interest, mean, standard_diviation)
 
