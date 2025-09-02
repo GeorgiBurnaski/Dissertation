@@ -4,6 +4,7 @@ import csv
 from scipy.stats import norm
 
 import constants
+import Person
 
 ## Creates a new age object with all the actuarial factors calculated
 @dataclass
@@ -31,11 +32,11 @@ class new_Age:
         return round(self.l)
         
     def calculate_v (self):
-        self.v=(1/(1+ self.constants.i))**self.age
+        self.v=(1/(1+ self.constants.i))
         return self.v
     
     def calculate_d(self):
-        self.d=self.l*self.v
+        self.d=self.l*(1/1+self.constants.i)**self.age
         return self.d
     
     def calculate_n(self):
@@ -62,7 +63,7 @@ class new_Age:
         self.v=self.calculate_v()
         self.d=self.calculate_d()
         self.n=self.calculate_n()
-
+#----------------------------------------------------------------------------------------------------------------------
 ## Analyzes the q values from NSI and finds the mean and standard diviation of age of death
 ## Returns the q and p lists for further calculations
 @dataclass        
@@ -138,15 +139,16 @@ class Analyze_q_list:
         self.l_difference=self.calculate_l_list()
         self.age_of_death = self.find_parameters()
         self.mean, self.standard_diviation = norm.fit(self.age_of_death)
+        
 
-## Calculates the actuarial factors for all ages based on the q values
+#----------------------------------------------------------------------------------------------------------------------
+### Base Pension class
 @dataclass
-class Calculate_actuarial_factors:
+class Pension:
     q_csv: str
-    
-    age_data : list [object] = field(init=False)
-    
-
+    age: int
+    saldo: float
+    data: list[object] = field(init=False)
     
     def create_age_data(self):
         q_list = Analyze_q_list(csv_file=self.q_csv).q_list
@@ -156,58 +158,68 @@ class Calculate_actuarial_factors:
             age_data.append(new_Age(i, q_list))
             i+=1
         return age_data
-        
+    
     def __post_init__(self):
-        self.age_data = self.create_age_data()
-
+        self.data = self.create_age_data()
+        
 
 ## Simple Pension Calculator  
 @dataclass
-class Calculate_simple_pension:
-    q_csv: str
-    age: int
-    saldo: float
+class Simple_pension(Pension):
     k: float = field(init=False)
     pension: float = field(init=False)
     
-    def get_data(self):
-        data = Calculate_actuarial_factors(self.q_csv)
-        k = 12 * ((data.age_data[self.age].n / data.age_data[self.age].d) - (11/24))
-        print(k)
+    def get_k(self):
+        k = 12 * ((self.data[self.age].n / self.data[self.age].d) - (11/24))
         return k
     
     def get_pension(self):
         return round(self.saldo/self.k ,2)
     
     def __post_init__(self):
-        self.k=self.get_data()
+        super().__post_init__()
+        self.k=self.get_k()
         self.pension=self.get_pension()
 
 ## Guaranteed Pension Calculator   
 @dataclass
-class Calculate_guaranteed_pension:
-    q_csv: str
-    age: int
-    guaranteed_period: int
-    saldo: float
+class Guaranteed_pension(Pension):
+    guaranteed_period_months: int
     k: float = field(init=False)
     pension: float = field(init=False)
     
-    def get_data(self):
-        data = Calculate_actuarial_factors(self.q_csv)
-        k = 12 * ((data.age_data[round(self.age+self.guaranteed_period/12)].n / data.age_data[self.age].d) - (11/24)*(data.age_data[round(self.age+self.guaranteed_period/12)].d/data.age_data[self.age].d))+(1-data.age_data[self.age].v**self.guaranteed_period/12)/(1-data.age_data[self.age].v**(1/12))
+    def get_k(self):
+        k = 12 * ((self.data[round(self.age+self.guaranteed_period_months/12)].n / self.data[self.age].d) - (11/24)*(self.data[round(self.age+self.guaranteed_period_months/12)].d/self.data[self.age].d))+(1-self.data[self.age].v**self.guaranteed_period_months/12)/(1-self.data[self.age].v**(1/12))
         return k
     
     def get_pension(self):
         return round(self.saldo/self.k ,2)
     
     def __post_init__(self):
-        self.k=self.get_data()
+        super().__post_init__()
+        self.k=self.get_k()
         self.pension=self.get_pension()
 
-## Inheriatry Pension Calculator 
+## Instalment Pension Calculator 
 @dataclass
-class Calculate_inheriatry_pension:
-    pass
-
-print(Calculate_guaranteed_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, guaranteed_period=60, saldo=100000).pension)
+class Instalment_pension(Pension):
+    instalment_ammount: float
+    instalment_period_months: int
+    k: float = field(init=False)
+    pension: float = field(init=False)
+    
+    def get_k(self):
+        k = 12 * (self.data[round(self.age+self.instalment_period_months/12)].n/self.data[self.age].d - (11/24)*self.data[round(self.age+self.instalment_period_months/12)].d/self.data[self.age].d) 
+        return k
+    
+    def get_pension(self):
+        return round((self.saldo-self.instalment_period_months*self.instalment_ammount)/self.k ,2)
+    
+    def __post_init__(self):
+        super().__post_init__()
+        self.k=self.get_k()
+        self.pension=self.get_pension()
+#----------------------------------------------------------------------------------------------------------------------
+print(Simple_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, saldo=100000).pension)
+print(Guaranteed_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, guaranteed_period_months=60, saldo=100000).pension)
+print(Instalment_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, instalment_ammount=500, instalment_period_months=60, saldo=100000).pension)
