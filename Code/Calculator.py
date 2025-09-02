@@ -149,7 +149,7 @@ class Calculate_actuarial_factors:
 
     
     def create_age_data(self):
-        q_list = analyze_actuarial_data.Analyze_q_list(csv_file=self.q_csv).q_list
+        q_list = Analyze_q_list(csv_file=self.q_csv).q_list
         age_data=[]
         i=0
         for value in q_list:
@@ -188,14 +188,14 @@ class Calculate_simple_pension:
 class Calculate_guaranteed_pension:
     q_csv: str
     age: int
+    guaranteed_period: int
     saldo: float
     k: float = field(init=False)
     pension: float = field(init=False)
     
     def get_data(self):
         data = Calculate_actuarial_factors(self.q_csv)
-        k = 12 * ((data.age_data[self.age].n / data.age_data[self.age].d) - (11/24))
-        print(k)
+        k = 12 * ((data.age_data[round(self.age+self.guaranteed_period/12)].n / data.age_data[self.age].d) - (11/24)*(data.age_data[round(self.age+self.guaranteed_period/12)].d/data.age_data[self.age].d))+(1-data.age_data[self.age].v**self.guaranteed_period/12)/(1-data.age_data[self.age].v**(1/12))
         return k
     
     def get_pension(self):
@@ -210,4 +210,4 @@ class Calculate_guaranteed_pension:
 class Calculate_inheriatry_pension:
     pass
 
-print(Calculate_simple_pension("Code\q_csv.csv",68,30000))
+print(Calculate_guaranteed_pension(q_csv='Code/Data/NSI_q_values.csv', age=58, guaranteed_period=60, saldo=100000).pension)
