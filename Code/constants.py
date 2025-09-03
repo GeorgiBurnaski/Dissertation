@@ -7,7 +7,7 @@ class Constatnts:
     example_age: int = 58
     total_funds: float = 10000
 
-    i: float = 0.037
+    i: float = 0.0037
     
     #These values are taken from MLE of gausian curve fit of the data in NSI
     mu: float = 74.94
