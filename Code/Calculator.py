@@ -23,6 +23,12 @@ class new_Age:
     constants: object = constants.Constatnts
 
     ## Calculates l, v, d, n based on the age and q values
+    
+    def calculate_p(self):
+        self.p = []
+        for value in self.q:
+            self.p.append(1 - value)
+        return self.p
 
     def calculate_l(self):
         if self.age == 0:
@@ -34,9 +40,11 @@ class new_Age:
     def calculate_v(self):
         self.v = 1 / (1 + self.constants.i)
         return self.v
+    
+    
 
     def calculate_d(self):
-        self.d = self.l * (1 / 1 + self.constants.i) ** self.age
+        self.d = self.l * self.v ** self.age
         return self.d
 
     def calculate_n(self):
@@ -55,10 +63,7 @@ class new_Age:
         return total_d - currnet_d
 
     def __post_init__(self):
-        p = []
-        for value in self.q:
-            p.append(1 - value)
-        self.p = p
+        self.p = self.calculate_p()
         self.l = self.calculate_l()
         self.v = self.calculate_v()
         self.d = self.calculate_d()
@@ -174,7 +179,11 @@ class Simple_pension(Pension):
     pension: float = field(init=False)
 
     def get_k(self):
+     
+        print(self.data[self.age].n)
+        print(self.data[self.age].d)
         k = 12 * ((self.data[self.age].n / self.data[self.age].d) - (11 / 24))
+        print(k)
         return k
 
     def get_pension(self):
@@ -251,21 +260,21 @@ class Instalment_pension(Pension):
 
 # ----------------------------------------------------------------------------------------------------------------------
 ## Test cases
-print(Simple_pension(q_csv="Code/Data/NSI_q_values.csv", age=58, saldo=100000).pension)
+print(Simple_pension(q_csv="Code/Data/NSI_q_values.csv", age=62, saldo=100000).pension)
 print(
     Guaranteed_pension(
         q_csv="Code/Data/NSI_q_values.csv",
-        age=58,
-        guaranteed_period_months=60,
+        age=62,
+        guaranteed_period_months=120,
         saldo=100000,
     ).pension
 )
 print(
     Instalment_pension(
         q_csv="Code/Data/NSI_q_values.csv",
-        age=58,
-        instalment_ammount=500,
-        instalment_period_months=60,
+        age=62,
+        instalment_ammount=145,
+        instalment_period_months=15*12,
         saldo=100000,
     ).pension
 )
