@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from math import prod
+from math import prod, floor
 import csv
 from scipy.stats import norm
 
@@ -38,7 +38,7 @@ class new_Age_Data:
             if age == 0:
                 l.append(self.constants.total_people)
             else:
-                l.append(round(self.constants.total_people * prod(self.p[:age - 1])))
+                l.append(round(self.constants.total_people * prod(self.p[:age])))
         return l
 
     def calculate_v(self):
@@ -170,11 +170,7 @@ class Simple_pension(Pension):
     pension: float = field(init=False)
 
     def get_k(self):
-     
-        print(self.data.n[self.age])
-        print(self.data.d[self.age])
         k = 12 * ((self.data.n[self.age] / self.data.d[self.age]) - (11 / 24))
-        print(k)
         return k
 
     def get_pension(self):
@@ -189,24 +185,13 @@ class Simple_pension(Pension):
 ## Guaranteed Pension Calculator
 @dataclass
 class Guaranteed_pension(Pension):
-    guaranteed_period_months: int
+    guaranteed_period_years: int
     k: float = field(init=False)
     pension: float = field(init=False)
 
     def get_k(self):
-        k = 12 * (
-            (
-                self.data.n[round(self.age + self.guaranteed_period_months / 12)]
-                / self.data.d[self.age]
-            )
-            - (11 / 24)
-            * (
-                self.data.d[round(self.age + self.guaranteed_period_months / 12)]
-                / self.data.d[self.age]
-            )
-        ) + (1 - self.data.v[self.age] ** self.guaranteed_period_months / 12) / (
-            1 - self.data.v[self.age] ** (1 / 12)
-        )
+        v=self.data.v[1]
+        k = 12 * ((self.data.n[self.age + self.guaranteed_period_years]/ self.data.d[self.age])- ((11 / 24)* (self.data.d[self.age +self.guaranteed_period_years]/ self.data.d[self.age]))) + ((1-v**self.guaranteed_period_years)/(1-v**(1/12)))
         return k
 
     def get_pension(self):
@@ -228,21 +213,30 @@ class Instalment_pension(Pension):
 
     def get_k(self):
         k = 12 * (
-            self.data.n[round(self.age + self.instalment_period_months / 12)]
+            self.data.n[floor((12*self.age + self.instalment_period_months) / 12)]
             / self.data.d[self.age]
             - (11 / 24)
-            * self.data.d[round(self.age + self.instalment_period_months / 12)]
+            * self.data.d[floor((12*self.age + self.instalment_period_months) / 12)]
             / self.data.d[self.age]
         )
         return k
 
+    def find_saldo_after_instalments(self):
+        summ=0
+        h=self.instalment_ammount
+        v=self.data.v[1]
+        i=0
+        while i < self.instalment_period_months:
+            summ+=h*v**(i/12)
+            i+=1
+        return self.saldo - summ
+    
     def get_pension(self):
         return round(
-            (self.saldo - self.instalment_period_months * self.instalment_ammount)
-            / self.k,
-            2,
-        )
-
+            (self.find_saldo_after_instalments()
+            / self.k),
+            2)
+        
     def __post_init__(self):
         super().__post_init__()
         self.k = self.get_k()
@@ -256,7 +250,7 @@ print(
     Guaranteed_pension(
         q_csv="Code/Data/NSI_q_values.csv",
         age=60,
-        guaranteed_period_months=120,
+        guaranteed_period_years=10,
         saldo=100000,
     ).pension
 )
@@ -264,7 +258,7 @@ print(
     Instalment_pension(
         q_csv="Code/Data/NSI_q_values.csv",
         age=60,
-        instalment_ammount=145,
+        instalment_ammount=500,
         instalment_period_months=15*12,
         saldo=100000,
     ).pension
