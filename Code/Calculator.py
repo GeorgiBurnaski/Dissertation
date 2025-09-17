@@ -3,12 +3,10 @@ from math import prod, floor
 import csv
 from scipy.stats import norm
 
-import Constants as constants
-
-
 ## Creates a new age object with all the actuarial factors calculated
 @dataclass
 class new_Age_Data:
+    company: object
     q: list[float]
     
     age: list[int] = field(default_factory=lambda: [i for i in range(0, 101)])
@@ -22,8 +20,6 @@ class new_Age_Data:
     d: list[float] = field(init=False)
     n: list[float] = field(init=False)
 
-    constants: object = constants.Constatnts
-
     ## Calculates l, v, d, n based on the age and q values
     
     def calculate_p(self):
@@ -36,15 +32,15 @@ class new_Age_Data:
         l = []
         for age in self.age:
             if age == 0:
-                l.append(self.constants.total_people)
+                l.append(self.company.total_people)
             else:
-                l.append(round(self.constants.total_people * prod(self.p[:age])))
+                l.append(round(self.company.total_people * prod(self.p[:age])))
         return l
 
     def calculate_v(self):
         v = []
         for age in self.age:
-            v.append((1 / (1 + self.constants.i))**age)
+            v.append((1 / (1 + self.company.interest))**age)
         return v
 
     def calculate_d(self):
@@ -74,7 +70,7 @@ class new_Age_Data:
 class Analyze_q_list:
 
     csv_file: csv
-
+    company: object
     q_list: list = field(init=False)
     p_list: list = field(init=False)
 
@@ -86,8 +82,7 @@ class Analyze_q_list:
     mean: float = field(init=False)
     standard_diviation: float = field(init=False)
 
-    constants: object = constants.Constatnts
-
+    
     ## Chains the data from NSI to a list
     def convert_csv_to_list(self):
         q_list = []
@@ -106,7 +101,7 @@ class Analyze_q_list:
         l_difference = []
         p_product = 1
         while age < len(self.p_list):
-            l_list.append(round(self.constants.total_people * p_product))
+            l_list.append(round(self.company.total_people * p_product))
             p_product *= self.p_list[age]
             age += 1
         i = 1
@@ -153,11 +148,13 @@ class Analyze_q_list:
 class Pension:
     q_csv: str
     age: int
-    saldo: float
+    saldo: float 
+    company: object
     data: list[object] = field(init=False)
 
+    
     def create_age_data(self):
-        return new_Age_Data(q=Analyze_q_list(csv_file=self.q_csv).q_list)
+        return new_Age_Data(q=Analyze_q_list(csv_file=self.q_csv, company=self.company).q_list, company=self.company)
 
     def __post_init__(self):
         self.data = self.create_age_data()
@@ -241,25 +238,3 @@ class Instalment_pension(Pension):
         super().__post_init__()
         self.k = self.get_k()
         self.pension = self.get_pension()
-
-
-# ----------------------------------------------------------------------------------------------------------------------
-## Test cases
-print(Simple_pension(q_csv="Code/Data/NSI_q_values.csv", age=60, saldo=100000).pension)
-print(
-    Guaranteed_pension(
-        q_csv="Code/Data/NSI_q_values.csv",
-        age=60,
-        guaranteed_period_years=10,
-        saldo=100000,
-    ).pension
-)
-print(
-    Instalment_pension(
-        q_csv="Code/Data/NSI_q_values.csv",
-        age=60,
-        instalment_ammount=500,
-        instalment_period_months=15*12,
-        saldo=100000,
-    ).pension
-)

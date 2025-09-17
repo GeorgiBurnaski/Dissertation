@@ -98,7 +98,6 @@ class Finances:
 
 # Example usage:
 fin = Finances()
-fin.plot_fund_actives()
 print(fin.mean_and_std_of_differences(1))
 predicted_dpf = fin.predict_next_n(1)
 print("Predicted next 365 DPF values:", predicted_dpf[:5], "...")  # Print first 5 as a sample

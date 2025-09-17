@@ -1,6 +1,5 @@
 from dataclasses import dataclass 
-from Finances import Finances
-
+from Person import Person
 
 @dataclass
 class Company:
@@ -10,10 +9,9 @@ class Company:
     fund_data: str  # Path to fund data CSV file
     people: list = None  # List of Person objects associated with the company
     
+    total_people: int = 100000  # Total number of people for actuarial calculations
+    
     def add_person(self, person):
         if self.people is None:
             self.people = []
         self.people.append(person)
-
-
-
