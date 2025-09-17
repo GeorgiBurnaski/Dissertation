@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  1 AUG 2025 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  17 SEP 2025 15:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -381,6 +381,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (c:/texlive/2022/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
 Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012, 2015-2016, 2018
  (c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -533,10 +536,6 @@ Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count298
- (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen159
  (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
@@ -589,26 +588,26 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 ) (./Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 \c@lstlisting=\count306
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -624,7 +623,7 @@ LaTeX Font Info:    ... okay on input line 53.
 \makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks28
 )
-Package soulpos Info: Loading soulutf8 on input line 53.
+Package soulpos Info: Loading soulutf8 on input line 54.
  (c:/texlive/2022/texmf-dist/tex/generic/soulutf8/soulutf8.sty
 Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
  (c:/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
@@ -639,16 +638,16 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen165
 \SOUL@ulht=\dimen166
 ))
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 54.
  (./Dissertation.out) (./Dissertation.out)
 \@outlinefile=\write4
 \openout4 = `Dissertation.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2022/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
@@ -657,26 +656,125 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 
 \openout3 = `Dissertation.upa'.
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `dalriada2023' on page 2 undefined on input line 62.
+
+
+LaTeX Warning: Citation `milliman2022' on page 2 undefined on input line 65.
+
+
+LaTeX Warning: Citation `bostonfed1999' on page 2 undefined on input line 69.
+
+
+LaTeX Warning: Citation `ncpers2023' on page 2 undefined on input line 69.
+
+
+LaTeX Warning: Citation `lifelib2024' on page 2 undefined on input line 72.
+
+
+LaTeX Warning: Citation `hyperexponential2023' on page 2 undefined on input line 72.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--77
+
+ []
+
+
+Overfull \hbox (7.86888pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 нарастващи изисквания към пенсионните системи, надеждните и прецизни
+ []
+
+
+Overfull \hbox (25.23889pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 компании при разработване на застрахователни и инвестиционни продукти[[]]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--77
+
+ []
+
+
+Overfull \hbox (4.27934pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 пенсионното осигуряване, животозастраховането здравното застраховане,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--77
+
+ []
+
+
+Overfull \hbox (18.36095pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 предизвикателства. Демографските промени, и по-специално увеличаването
+ []
+
+
+Overfull \hbox (11.19728pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 на средната продължителност на живота и намаляването на раждаемостта,
+ []
+
+
+Overfull \hbox (2.06065pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 водят до нарастващо съотношение между пенсионери и активно работещо
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--77
+
+ []
+
+
+Overfull \hbox (6.13943pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 нови възможности за прилагане на актюерската математика в практиката.
+ []
+
+
+Overfull \hbox (20.43175pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 изчисления има двойна значимост: от една страна, улеснява изследователите
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--77
+
+ []
+
+
+Overfull \hbox (28.65068pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 Целта на настоящата дисертация е именно изгражданетона такава библиотека,
+ []
+
+
+Overfull \hbox (30.66287pt too wide) in paragraph at lines 59--77
+\T2A/cmr/m/n/12 предимствата на съвременните програмни среди. Чрез нея се цели създаването
+ []
+
+[2] [3] [4] [5] [6]
+No file Dissertation.bbl.
+[7] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
 \openout3 = `Dissertation.upb'.
 
  (./Dissertation.upa))
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 4635EAD1EF03554476FE571AFAD8F821;543.
  ) 
 Here is how much of TeX's memory you used:
- 18526 strings out of 475071
- 320315 string characters out of 5782907
- 662630 words of memory out of 5000000
- 39678 multiletter control sequences out of 15000+600000
- 478149 words of font info for 48 fonts, out of 8000000 for 9000
+ 18532 strings out of 475071
+ 320392 string characters out of 5782907
+ 665724 words of memory out of 5000000
+ 39681 multiletter control sequences out of 15000+600000
+ 478968 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,6n,96p,546b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Dissertation.pdf (6 pages, 64961 bytes).
+ 86i,6n,96p,878b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on Dissertation.pdf (7 pages, 88585 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

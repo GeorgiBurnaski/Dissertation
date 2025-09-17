@@ -230,7 +230,7 @@ class Instalment_pension(Pension):
     
     def get_pension(self):
         return round(
-            (self.find_saldo_after_instalments()
+            ((self.find_saldo_after_instalments()*(1-self.company.risk_level))
             / self.k),
             2)
         

@@ -45,7 +45,7 @@ class Finances:
         avg_negative = sum(negative_diffs) / len(negative_diffs) if negative_diffs else 0
         return avg_positive, avg_negative
     
-    def mean_and_std_of_differences(self, column_index: int, window: int): # column_index: 1 for DPF, 2 for PPF, 3 for UPF 
+    def mean_and_std_of_differences(self, column_index: int): # column_index: 1 for DPF, 2 for PPF, 3 for UPF 
         values = [float(x) for x in self.data[column_index][1:]]  # Skip header
         if len(values) < 2:
             return 0, 0
@@ -98,6 +98,5 @@ class Finances:
 
 # Example usage:
 fin = Finances()
-print(fin.mean_and_std_of_differences(1))
 predicted_dpf = fin.predict_next_n(1)
 print("Predicted next 365 DPF values:", predicted_dpf[:5], "...")  # Print first 5 as a sample
