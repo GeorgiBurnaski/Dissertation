@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  17 SEP 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  18 SEP 2025 13:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -658,101 +658,215 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Citation `dalriada2023' on page 2 undefined on input line 62.
+LaTeX Warning: Citation `dalriada2023' on page 2 undefined on input line 61.
 
 
-LaTeX Warning: Citation `milliman2022' on page 2 undefined on input line 65.
+LaTeX Warning: Citation `milliman2022' on page 2 undefined on input line 64.
 
 
-LaTeX Warning: Citation `bostonfed1999' on page 2 undefined on input line 69.
+LaTeX Warning: Citation `bostonfed1999' on page 2 undefined on input line 68.
 
 
-LaTeX Warning: Citation `ncpers2023' on page 2 undefined on input line 69.
+LaTeX Warning: Citation `ncpers2023' on page 2 undefined on input line 68.
 
 
-LaTeX Warning: Citation `lifelib2024' on page 2 undefined on input line 72.
+LaTeX Warning: Citation `lifelib2024' on page 2 undefined on input line 71.
 
 
-LaTeX Warning: Citation `hyperexponential2023' on page 2 undefined on input line 72.
+LaTeX Warning: Citation `hyperexponential2023' on page 2 undefined on input line 71.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--77
+LaTeX Warning: Citation `numpy2024' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation `pandas2024' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation `matplotlib2024' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Citation `seaborn2024' on page 2 undefined on input line 77.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
 
  []
 
 
-Overfull \hbox (7.86888pt too wide) in paragraph at lines 59--77
+Overfull \hbox (7.86888pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 нарастващи изисквания към пенсионните системи, надеждните и прецизни
  []
 
 
-Overfull \hbox (25.23889pt too wide) in paragraph at lines 59--77
+Overfull \hbox (25.23889pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 компании при разработване на застрахователни и инвестиционни продукти[[]]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--77
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
 
  []
 
 
-Overfull \hbox (4.27934pt too wide) in paragraph at lines 59--77
+Overfull \hbox (4.27934pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 пенсионното осигуряване, животозастраховането здравното застраховане,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--77
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
 
  []
 
 
-Overfull \hbox (18.36095pt too wide) in paragraph at lines 59--77
+Overfull \hbox (18.36095pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 предизвикателства. Демографските промени, и по-специално увеличаването
  []
 
 
-Overfull \hbox (11.19728pt too wide) in paragraph at lines 59--77
+Overfull \hbox (11.19728pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 на средната продължителност на живота и намаляването на раждаемостта,
  []
 
 
-Overfull \hbox (2.06065pt too wide) in paragraph at lines 59--77
+Overfull \hbox (2.06065pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 водят до нарастващо съотношение между пенсионери и активно работещо
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--77
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
 
  []
 
 
-Overfull \hbox (6.13943pt too wide) in paragraph at lines 59--77
+Overfull \hbox (6.13943pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 нови възможности за прилагане на актюерската математика в практиката.
  []
 
 
-Overfull \hbox (20.43175pt too wide) in paragraph at lines 59--77
+Overfull \hbox (20.43175pt too wide) in paragraph at lines 58--85
 \T2A/cmr/m/n/12 изчисления има двойна значимост: от една страна, улеснява изследователите
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--77
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
 
  []
 
 
-Overfull \hbox (28.65068pt too wide) in paragraph at lines 59--77
+Overfull \hbox (31.10004pt too wide) in paragraph at lines 58--85
+\T2A/cmr/m/n/12 Въпреки наличието на различни софтуерни решения за актюерски изчисления,
+ []
+
+
+Overfull \hbox (12.43724pt too wide) in paragraph at lines 58--85
+\T2A/cmr/m/n/12 много от тях са или твърде специализирани, или не предлагат необходимата
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
+
+ []
+
+
+Overfull \hbox (11.19511pt too wide) in paragraph at lines 58--85
+\T2A/cmr/m/n/12 Python би могло да включва функции за изчисляване на настояща стойност
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
+
+ []
+
+
+Overfull \hbox (43.66292pt too wide) in paragraph at lines 58--85
+\T2A/cmr/m/n/12 актюерски изчисления в Python представлява важна стъпка към модернизацията
+ []
+
+
+Overfull \hbox (12.06737pt too wide) in paragraph at lines 58--85
+\T2A/cmr/m/n/12 и усъвършенстването на актюерската практика. Тя би могла да подпомогне
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--85
+
+ []
+
+[2]
+Overfull \hbox (51.00533pt too wide) in paragraph at lines 86--87
+[]\T2A/cmr/m/n/12 Първи стълб: Държавно задължително пенсионно осигуряване (солидарност
+ []
+
+
+Overfull \hbox (7.11436pt too wide) in paragraph at lines 86--87
+\T2A/cmr/m/n/12 между поколенията). Това е държавната пенсия, която се финансира
+ []
+
+
+Overfull \hbox (9.1375pt too wide) in paragraph at lines 86--87
+\T2A/cmr/m/n/12 от текущите осигурителни вноски на работещите. Тя е задължителна
+ []
+
+
+Overfull \hbox (5.87436pt too wide) in paragraph at lines 87--88
+\T2A/cmr/m/n/12 самия осигурено лице пенсионни фондове. Той също е задължителен
+ []
+
+
+Overfull \hbox (42.1909pt too wide) in paragraph at lines 88--89
+\T2A/cmr/m/n/12 (ДДПО). Това е напълно доброволно допълнително пенсионно осигуряване,
+ []
+
+
+Overfull \hbox (2.55695pt too wide) in paragraph at lines 88--89
+\T2A/cmr/m/n/12 при което хората сами решават да спестяват допълнително за своята
+ []
+
+[3]
+
+LaTeX Warning: Citation `zdzpo2024' on page 4 undefined on input line 90.
+
+
+LaTeX Warning: Citation `zdoo2024' on page 4 undefined on input line 90.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Overfull \hbox (21.96385pt too wide) in paragraph at lines 96--97
+[]\T2A/cmr/m/n/12 Закон за допълнително задължително пенсионно осигуряване (ЗДЗПО) 
+ []
+
+
+Overfull \hbox (9.7221pt too wide) in paragraph at lines 98--99
+[]\T2A/cmr/m/n/12 Наредба ќ Н-8 от 2004 г. за определяне на методиката за изчисляване
+ []
+
+
+Overfull \hbox (13.57513pt too wide) in paragraph at lines 101--105
+\T2A/cmr/m/n/12 Като изчисленията трябва да отговарят на изискванията, заложени наредба
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
+
+ []
+
+
+Overfull \hbox (28.65068pt too wide) in paragraph at lines 101--105
 \T2A/cmr/m/n/12 Целта на настоящата дисертация е именно изгражданетона такава библиотека,
  []
 
 
-Overfull \hbox (30.66287pt too wide) in paragraph at lines 59--77
+Overfull \hbox (30.66287pt too wide) in paragraph at lines 101--105
 \T2A/cmr/m/n/12 предимствата на съвременните програмни среди. Чрез нея се цели създаването
  []
 
-[2] [3] [4] [5] [6]
+[4] [5] [6] [7]
 No file Dissertation.bbl.
-[7] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
+[8] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
 \openout3 = `Dissertation.upb'.
 
  (./Dissertation.upa))
@@ -763,18 +877,18 @@ Package rerunfilecheck Info: File `Dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 4635EAD1EF03554476FE571AFAD8F821;543.
  ) 
 Here is how much of TeX's memory you used:
- 18532 strings out of 475071
- 320392 string characters out of 5782907
- 665724 words of memory out of 5000000
- 39681 multiletter control sequences out of 15000+600000
- 478968 words of font info for 49 fonts, out of 8000000 for 9000
+ 18536 strings out of 475071
+ 320434 string characters out of 5782907
+ 666724 words of memory out of 5000000
+ 39683 multiletter control sequences out of 15000+600000
+ 479305 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,6n,96p,878b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Dissertation.pdf (7 pages, 88585 bytes).
+ 86i,6n,96p,1033b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on Dissertation.pdf (8 pages, 97585 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
