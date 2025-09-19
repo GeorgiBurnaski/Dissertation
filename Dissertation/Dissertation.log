@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  18 SEP 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  19 SEP 2025 15:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -588,26 +588,26 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 ) (./Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 \c@lstlisting=\count306
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -623,7 +623,7 @@ LaTeX Font Info:    ... okay on input line 54.
 \makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks28
 )
-Package soulpos Info: Loading soulutf8 on input line 54.
+Package soulpos Info: Loading soulutf8 on input line 59.
  (c:/texlive/2022/texmf-dist/tex/generic/soulutf8/soulutf8.sty
 Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
  (c:/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
@@ -638,16 +638,16 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen165
 \SOUL@ulht=\dimen166
 ))
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 59.
  (./Dissertation.out) (./Dissertation.out)
 \@outlinefile=\write4
 \openout4 = `Dissertation.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2022/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
@@ -657,238 +657,422 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 \openout3 = `Dissertation.upa'.
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `dalriada2023' on page 2 undefined on input line 61.
-
-
-LaTeX Warning: Citation `milliman2022' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation `bostonfed1999' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation `ncpers2023' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation `lifelib2024' on page 2 undefined on input line 71.
-
-
-LaTeX Warning: Citation `hyperexponential2023' on page 2 undefined on input line 71.
-
-
-LaTeX Warning: Citation `numpy2024' on page 2 undefined on input line 74.
-
-
-LaTeX Warning: Citation `pandas2024' on page 2 undefined on input line 74.
-
-
-LaTeX Warning: Citation `matplotlib2024' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation `seaborn2024' on page 2 undefined on input line 77.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (7.86888pt too wide) in paragraph at lines 58--85
+Overfull \hbox (7.86888pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 нарастващи изисквания към пенсионните системи, надеждните и прецизни
  []
 
 
-Overfull \hbox (25.23889pt too wide) in paragraph at lines 58--85
-\T2A/cmr/m/n/12 компании при разработване на застрахователни и инвестиционни продукти[[]]. 
+Overfull \hbox (9.07622pt too wide) in paragraph at lines 63--90
+\T2A/cmr/m/n/12 компании при разработване на застрахователни и инвестиционни продукти
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (4.27934pt too wide) in paragraph at lines 58--85
+Overfull \hbox (4.27934pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 пенсионното осигуряване, животозастраховането здравното застраховане,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (18.36095pt too wide) in paragraph at lines 58--85
+Overfull \hbox (18.36095pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 предизвикателства. Демографските промени, и по-специално увеличаването
  []
 
 
-Overfull \hbox (11.19728pt too wide) in paragraph at lines 58--85
+Overfull \hbox (11.19728pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 на средната продължителност на живота и намаляването на раждаемостта,
  []
 
 
-Overfull \hbox (2.06065pt too wide) in paragraph at lines 58--85
+Overfull \hbox (2.06065pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 водят до нарастващо съотношение между пенсионери и активно работещо
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Overfull \hbox (5.60643pt too wide) in paragraph at lines 63--90
+\T2A/cmr/m/n/12 население [[]]. Това поставя под натиск публичните пенсионни
+ []
+
+
+Overfull \hbox (13.64455pt too wide) in paragraph at lines 63--90
+\T2A/cmr/m/n/12 пазари и инфлационните процеси влияят върху доходността на пенсионните
+ []
+
+
+Overfull \hbox (28.39365pt too wide) in paragraph at lines 63--90
+\T2A/cmr/m/n/12 активи и изискват по-гъвкави подходи при управлението на риска [[]]. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (6.13943pt too wide) in paragraph at lines 58--85
+Overfull \hbox (6.13943pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 нови възможности за прилагане на актюерската математика в практиката.
  []
 
 
-Overfull \hbox (20.43175pt too wide) in paragraph at lines 58--85
+Overfull \hbox (20.43175pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 изчисления има двойна значимост: от една страна, улеснява изследователите
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (31.10004pt too wide) in paragraph at lines 58--85
+Overfull \hbox (31.10004pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 Въпреки наличието на различни софтуерни решения за актюерски изчисления,
  []
 
 
-Overfull \hbox (12.43724pt too wide) in paragraph at lines 58--85
+Overfull \hbox (12.43724pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 много от тях са или твърде специализирани, или не предлагат необходимата
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (11.19511pt too wide) in paragraph at lines 58--85
+Overfull \hbox (11.19511pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 Python би могло да включва функции за изчисляване на настояща стойност
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Overfull \hbox (57.69214pt too wide) in paragraph at lines 63--90
+\T2A/cmr/m/n/12 би позволила по-добро представяне и интерпретация на резултатите [[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 
-Overfull \hbox (43.66292pt too wide) in paragraph at lines 58--85
+Overfull \hbox (43.66292pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 актюерски изчисления в Python представлява важна стъпка към модернизацията
  []
 
 
-Overfull \hbox (12.06737pt too wide) in paragraph at lines 58--85
+Overfull \hbox (12.06737pt too wide) in paragraph at lines 63--90
 \T2A/cmr/m/n/12 и усъвършенстването на актюерската практика. Тя би могла да подпомогне
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--85
+Underfull \hbox (badness 10000) in paragraph at lines 63--90
 
  []
 
 [2]
-Overfull \hbox (51.00533pt too wide) in paragraph at lines 86--87
+Overfull \hbox (51.00533pt too wide) in paragraph at lines 91--92
 []\T2A/cmr/m/n/12 Първи стълб: Държавно задължително пенсионно осигуряване (солидарност
  []
 
 
-Overfull \hbox (7.11436pt too wide) in paragraph at lines 86--87
+Overfull \hbox (7.11436pt too wide) in paragraph at lines 91--92
 \T2A/cmr/m/n/12 между поколенията). Това е държавната пенсия, която се финансира
  []
 
 
-Overfull \hbox (9.1375pt too wide) in paragraph at lines 86--87
+Overfull \hbox (9.1375pt too wide) in paragraph at lines 91--92
 \T2A/cmr/m/n/12 от текущите осигурителни вноски на работещите. Тя е задължителна
  []
 
 
-Overfull \hbox (5.87436pt too wide) in paragraph at lines 87--88
+Overfull \hbox (5.87436pt too wide) in paragraph at lines 92--93
 \T2A/cmr/m/n/12 самия осигурено лице пенсионни фондове. Той също е задължителен
  []
 
 
-Overfull \hbox (42.1909pt too wide) in paragraph at lines 88--89
+Overfull \hbox (42.1909pt too wide) in paragraph at lines 93--94
 \T2A/cmr/m/n/12 (ДДПО). Това е напълно доброволно допълнително пенсионно осигуряване,
  []
 
 
-Overfull \hbox (2.55695pt too wide) in paragraph at lines 88--89
+Overfull \hbox (2.55695pt too wide) in paragraph at lines 93--94
 \T2A/cmr/m/n/12 при което хората сами решават да спестяват допълнително за своята
  []
 
-[3]
 
-LaTeX Warning: Citation `zdzpo2024' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation `zdoo2024' on page 4 undefined on input line 90.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
-
-Overfull \hbox (21.96385pt too wide) in paragraph at lines 96--97
+[3]
+Overfull \hbox (21.96385pt too wide) in paragraph at lines 101--102
 []\T2A/cmr/m/n/12 Закон за допълнително задължително пенсионно осигуряване (ЗДЗПО) 
  []
 
 
-Overfull \hbox (9.7221pt too wide) in paragraph at lines 98--99
+Overfull \hbox (9.7221pt too wide) in paragraph at lines 103--104
 []\T2A/cmr/m/n/12 Наредба ќ Н-8 от 2004 г. за определяне на методиката за изчисляване
  []
 
 
-Overfull \hbox (13.57513pt too wide) in paragraph at lines 101--105
+Overfull \hbox (13.57513pt too wide) in paragraph at lines 106--110
 \T2A/cmr/m/n/12 Като изчисленията трябва да отговарят на изискванията, заложени наредба
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--105
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Overfull \hbox (28.65068pt too wide) in paragraph at lines 101--105
+Overfull \hbox (28.65068pt too wide) in paragraph at lines 106--110
 \T2A/cmr/m/n/12 Целта на настоящата дисертация е именно изгражданетона такава библиотека,
  []
 
 
-Overfull \hbox (30.66287pt too wide) in paragraph at lines 101--105
+Overfull \hbox (30.66287pt too wide) in paragraph at lines 106--110
 \T2A/cmr/m/n/12 предимствата на съвременните програмни среди. Чрез нея се цели създаването
  []
 
-[4] [5] [6] [7]
-No file Dissertation.bbl.
-[8] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
+[4]
+Overfull \hbox (20.37943pt too wide) in paragraph at lines 113--114
+\T2A/cmr/m/n/12 преди да достигне възраст $\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + 1$\T2A/cmr/m/n/12 . Тази вероятност се взима от статистическата
+ []
+
+
+Overfull \hbox (19.35071pt too wide) in paragraph at lines 113--114
+\T2A/cmr/m/n/12 статистика на държавната осигурителна институция в случая Националният
+ []
+
+
+Overfull \hbox (7.70058pt too wide) in paragraph at lines 122--124
+\T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 i$ \T2A/cmr/m/n/12 е годишният лихвен процент зададен от пенсионноосигурителната
+ []
+
+
+Overfull \hbox (33.27745pt too wide) in paragraph at lines 125--126
+\T2A/cmr/m/n/12 дисконтиране на този поток към настоящия момент. Формулата за изчисляване
+ []
+
+[5]
+Overfull \hbox (15.77115pt too wide) in paragraph at lines 128--129
+\T2A/cmr/m/n/12 Кумулативната настояща стойност ($\OML/cmm/m/it/12 N[]$\T2A/cmr/m/n/12 ) представлява сумата от настоящите
+ []
+
+
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 134--136
+\T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
+ []
+
+
+Overfull \hbox (7.71259pt too wide) in paragraph at lines 134--136
+\T2A/cmr/m/n/12 представлява фактор, който се използва за изчисляване на месечната
+ []
+
+
+LaTeX Warning: Command \cyrk invalid in math mode on input line 138.
+
+Missing character: There is no к in font cmr12!
+
+Overfull \hbox (26.64807pt too wide) in paragraph at lines 138--139
+[]\T2A/cmr/bx/n/12 Пожизнена пенсия с период на гарантирано изплащане (фактор
+ []
+
+
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 139--141
+\T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
+ []
+
+
+Overfull \hbox (10.51477pt too wide) in paragraph at lines 139--141
+\T2A/cmr/m/n/12 след изтичане на гарантирания период от $\OML/cmm/m/it/12 n$ \T2A/cmr/m/n/12 години, а $\OML/cmm/m/it/12 D[]$ \T2A/cmr/m/n/12 е настоящата
+ []
+
+[6]
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 144--146
+\T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
+ []
+
+
+Overfull \hbox (10.51477pt too wide) in paragraph at lines 144--146
+\T2A/cmr/m/n/12 след изтичане на гарантирания период от $\OML/cmm/m/it/12 n$ \T2A/cmr/m/n/12 години, а $\OML/cmm/m/it/12 D[]$ \T2A/cmr/m/n/12 е настоящата
+ []
+
+
+Overfull \hbox (10.87361pt too wide) in paragraph at lines 144--146
+\T2A/cmr/m/n/12 който се използва за изчисляване на месечната сума на Допълнителна
+ []
+
+
+Overfull \hbox (18.9268pt too wide) in paragraph at lines 146--148
+\T2A/cmr/m/n/12 вноски по време на периода на разсрочено изплащане. Те се изчисляват
+ []
+
+
+Overfull \hbox (1.8182pt too wide) in paragraph at lines 148--150
+\T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 H[]$ \T2A/cmr/m/n/12 е размера на месечното плащане повреме на разсроченият
+ []
+
+
+Overfull \hbox (19.20238pt too wide) in paragraph at lines 148--150
+\T2A/cmr/m/n/12 петиод, а $\OML/cmm/m/it/12 b[]$ \T2A/cmr/m/n/12 е броят на месеците от началото на разсроченото изплащане
+ []
+
+[7]
+Overfull \hbox (31.80742pt too wide) in paragraph at lines 157--158
+[]\T2A/cmr/bx/n/12 Company \T2A/cmr/m/n/12 - представлява компания, която предлага пенсионни продукти. 
+ []
+
+
+Overfull \hbox (4.5425pt too wide) in paragraph at lines 158--159
+[]\T2A/cmr/bx/n/12 Calculator \T2A/cmr/m/n/12 - съдържа методи за изчисляване на пенсията въз основа
+ []
+
+
+Overfull \hbox (24.72087pt too wide) in paragraph at lines 159--160
+[]\T2A/cmr/bx/n/12 Finances \T2A/cmr/m/n/12 - съдържа методи за финансови изчисления, като изчисляване
+ []
+
+
+Overfull \hbox (31.54706pt too wide) in paragraph at lines 160--161
+[]\T2A/cmr/bx/n/12 main \T2A/cmr/m/n/12 - основен скрипт, който демонстрира използването на библиотеката. 
+ []
+
+
+Overfull \hbox (20.55382pt too wide) in paragraph at lines 164--165
+[]\T2A/cmr/bx/n/12 NSI_mortality_table.csv \T2A/cmr/m/n/12 - таблица на смъртността от Националната
+ []
+
+
+Overfull \hbox (3.69136pt too wide) in paragraph at lines 165--166
+[]\T2A/cmr/bx/n/12 Saglasie_fund_actives.csv \T2A/cmr/m/n/12 - данни за активите на пенсионен фонд
+ []
+
+[8]
+Overfull \hbox (18.87029pt too wide) in paragraph at lines 185--186
+[]\T2A/cmr/m/n/12 База данни със стойностите на активите на компанията във различните
+ []
+
+
+Overfull \hbox (10.56744pt too wide) in paragraph at lines 185--186
+\T2A/cmr/m/n/12 фондове, като Универсален, Доброволен и Професионален Пенсионен
+ []
+
+
+Overfull \hbox (8.78381pt too wide) in paragraph at lines 187--188
+[]\T2A/cmr/m/n/12 Общо хора ($\OML/cmm/m/it/12 l[]$\T2A/cmr/m/n/12 ) за актюерски изчисления, константа която по принцип
+ []
+
+
+Overfull \hbox (15.283pt too wide) in paragraph at lines 187--188
+\T2A/cmr/m/n/12 се задава като равна на 100 000 за актюерските изчисления в българия. 
+ []
+
+
+Overfull \hbox (41.7309pt too wide) in paragraph at lines 205--208
+\T2A/cmr/m/n/12 Съдържа класове за изчисляване на актюерските константи като: $\OML/cmm/m/it/12 q[]; p[]; l[]; v[]; D[]$
+ []
+
+[9]
+Overfull \hbox (12.60031pt too wide) in paragraph at lines 209--210
+\T2A/cmr/m/n/12 Финансов клас, който управлява всички финансови операции и изчисления.
+ []
+
+
+Overfull \hbox (23.43652pt too wide) in paragraph at lines 211--212
+[]\T2A/cmr/m/n/12 Извличане на информация от базата данни на компанията за стойността
+ []
+
+
+Overfull \hbox (2.8791pt too wide) in paragraph at lines 213--214
+[]\T2A/cmr/m/n/12 Изчисляване на средното и стандартното отклонение на движенията
+ []
+
+
+Overfull \hbox (13.08984pt too wide) in paragraph at lines 219--220
+\T2A/cmr/m/n/12 Това е основният скрипт, който демонстрира използването на библиотеката.
+ []
+
+
+Overfull \hbox (27.0891pt too wide) in paragraph at lines 222--223
+[]\T2A/cmr/m/n/12 Извикване на методите от класовете Cal-cu-la-tor и Fi-nances за изчисляване
+ []
+
+[10] [11] [12] [13]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 240.
+ (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 238--242
+\T2A/cmtt/m/n/12 bostonfed . org / -[] / media / Documents / conference / 16 / conf16b . pdf$[]
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 275--279
+[]\T2A/cmr/m/n/12 Народно събрание на Република България. (2004).
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 275--279
+\T2A/cmr/m/n/12 Доставен от: []$\T2A/cmtt/m/n/12 https : / / www . parliament . bg / bg / laws$[]  \T2A/cmr/m/n/12 Последно
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 287--291
+[]\T2A/cmr/m/n/12 Държавна комисия по финансов надзор (ДКФН).
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 293--297
+[]\T2A/cmr/m/n/12 Национална осигурителна институция (НОИ). (2023).
+ []
+
+[14] [15] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 328.
+ (../Code/main.py) [16] (../Code/Company.py) (../Code/Person.py [17] [18]) (../Code/Calculator.py [19]
+Overfull \hbox (373.22571pt too wide) in paragraph at lines 66--67
+[][][][] 
+ []
+
+[20] [21]
+Overfull \hbox (373.22571pt too wide) in paragraph at lines 145--146
+[][][][] 
+ []
+
+[22] [23]) (../Code/Finances.py [24] [25] [26]) [27] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
 \openout3 = `Dissertation.upb'.
 
  (./Dissertation.upa))
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 4635EAD1EF03554476FE571AFAD8F821;543.
+(rerunfilecheck)             Checksum: E6D85FABB2F610F45224B417FD2D9DEE;2828.
  ) 
 Here is how much of TeX's memory you used:
- 18536 strings out of 475071
- 320434 string characters out of 5782907
- 666724 words of memory out of 5000000
- 39683 multiletter control sequences out of 15000+600000
- 479305 words of font info for 50 fonts, out of 8000000 for 9000
+ 19769 strings out of 475071
+ 335839 string characters out of 5782907
+ 1261499 words of memory out of 5000000
+ 40353 multiletter control sequences out of 15000+600000
+ 486743 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,6n,96p,1033b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Dissertation.pdf (8 pages, 97585 bytes).
+ 86i,6n,96p,1024b,2202s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Dissertation.pdf (27 pages, 403781 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 954 PDF objects out of 1000 (max. 8388607)
+ 877 compressed objects within 9 object streams
+ 541 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
