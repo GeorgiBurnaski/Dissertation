@@ -1,38 +1,38 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.22)  19 SEP 2025 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.21)  23 SEP 2025 15:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **Dissertation
 (./Dissertation.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (c:/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(c:/texlive/2022/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@section=\count180
-\c@subsection=\count181
-\c@subsubsection=\count182
-\c@paragraph=\count183
-\c@subparagraph=\count184
-\c@figure=\count185
-\c@table=\count186
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-) (c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
- (c:/texlive/2020/texmf-dist/tex/latex/cyrillic/t2aenc.def
-File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (c:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+ (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
+File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
- (c:/texlive/2020/texmf-dist/tex/latex/base/t2aenc.dfu
-File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+ (c:/texlive/2022/texmf-dist/tex/latex/base/t2aenc.dfu
+File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -218,7 +218,9 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+2031 (decimal 8241)
    defining Unicode char U+2116 (decimal 8470)
    defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
    defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
    defining Unicode char U+2423 (decimal 9251)
    defining Unicode char U+27E8 (decimal 10216)
    defining Unicode char U+27E9 (decimal 10217)
@@ -231,159 +233,159 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+FB06 (decimal 64262)
 ))
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 112.
- (c:/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+ (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)) (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2021/03/03 3.55 The Babel package
- (c:/texlive/2020/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2021/03/03 3.55 Babel common definitions
-\babel@savecnt=\count187
-\U@D=\dimen139
-\l@babelnohyphens=\language86
- (c:/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-)
-\bbl@dirlevel=\count188
- (c:/texlive/2020/texmf-dist/tex/generic/babel-bulgarian/bulgarian.ldf
-Language: bulgarian 2013/10/14 v1.2g Bulgarian support from the babel system
-Package babel Info: Using `T2A' as a default Cyrillic encoding on input line 89.
-Package bulgarian.ldf Info: Executing the post 3.9 branch for captions on input line 197.
-Package bulgarian.ldf Info: Executing the post 3.9 branch for dates on input line 302.
-Package babel Info: Making " an active character on input line 344.
-) (c:/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language21) on input line 108.
-)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen140
-)) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks18
+\ex@=\dimen139
+)) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen141
-) (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+\pmbraise@=\dimen140
+) (c:/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count189
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count190
-\leftroot@=\count191
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count192
-\DOTSCASE@=\count193
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen142
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count194
-\c@MaxMatrixCols=\count195
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count196
-\dspbrk@lvl=\count197
-\tag@help=\toks18
-\row@=\count198
-\column@=\count199
-\maxfields@=\count266
-\andhelp@=\toks19
-\eqnshift@=\dimen143
-\alignsep@=\dimen144
-\tagshift@=\dimen145
-\tagwidth@=\dimen146
-\totwidth@=\dimen147
-\lineht@=\dimen148
-\@envbody=\toks20
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks19
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks20
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks21
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-) (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2020/texmf-dist/tex/latex/listings/listings.sty (c:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+)) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty (c:/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
 )
-\lst@mode=\count267
-\lst@gtempboxa=\box49
-\lst@token=\toks23
-\lst@length=\count268
-\lst@currlwidth=\dimen149
-\lst@column=\count269
-\lst@pos=\count270
-\lst@lostspace=\dimen150
-\lst@width=\dimen151
-\lst@newlines=\count271
-\lst@lineno=\count272
-\lst@maxwidth=\dimen152
- (c:/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+\lst@mode=\count271
+\lst@gtempboxa=\box53
+\lst@token=\toks24
+\lst@length=\count272
+\lst@currlwidth=\dimen148
+\lst@column=\count273
+\lst@pos=\count274
+\lst@lostspace=\dimen149
+\lst@width=\dimen150
+\lst@newlines=\count275
+\lst@lineno=\count276
+\lst@maxwidth=\dimen151
+ (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count273
-\lst@skipnumbers=\count274
-\lst@framebox=\box50
-) (c:/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+\c@lstnumber=\count277
+\lst@skipnumbers=\count278
+\lst@framebox=\box54
+) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
- (c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (c:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen152
+\stockheight=\dimen153
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (c:/texlive/2020/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
-Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012, 2015-2016, 2018
- (c:/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
- (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-\XKV@depth=\count275
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+) (c:/texlive/2022/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012, 2015-2016, 2018
+ (c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count279
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@pc@count@i=\count276
-\c@pc@count@ii=\count277
-\c@pc@count@iii=\count278
-\c@pc@count@iv=\count279
-\pc@mathannot@box=\box51
-\pc@nullbox=\box52
+\c@pc@count@i=\count280
+\c@pc@count@ii=\count281
+\c@pc@count@iii=\count282
+\c@pc@count@iv=\count283
+\pc@mathannot@box=\box55
+\pc@nullbox=\box56
 \pc@dima=\skip52
 \pc@dimb=\skip53
 \pc@Sposx=\skip54
@@ -394,684 +396,769 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pc@box@width=\skip59
 \pc@box@height=\skip60
 \pc@box@depth=\skip61
- (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count280
-) (c:/texlive/2020/texmf-dist/tex/latex/datetime2/datetime2.sty
+\etb@tempcnta=\count284
+) (c:/texlive/2022/texmf-dist/tex/latex/datetime2/datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
- (c:/texlive/2020/texmf-dist/tex/latex/tracklang/tracklang.sty
+ (c:/texlive/2022/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
- (c:/texlive/2020/texmf-dist/tex/generic/tracklang/tracklang.tex)) (c:/texlive/2020/texmf-dist/tex/latex/datetime2-english/datetime2-english.ldf
-File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
- (c:/texlive/2020/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
-File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
-)) (c:/texlive/2020/texmf-dist/tex/latex/datetime2-bulgarian/datetime2-bulgarian.ldf
-File: datetime2-bulgarian.ldf 2018/03/19 v1.1
- (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
- (c:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (c:/texlive/2020/texmf-dist/tex/latex/datetime2-bulgarian/datetime2-bulgarian-ascii.ldf
-File: datetime2-bulgarian-ascii.ldf 2018/03/19 v1.1
-))) (c:/texlive/2020/texmf-dist/tex/latex/zref/zref-savepos.sty
-Package: zref-savepos 2020-07-03 v2.32 Module savepos for zref (HO)
- (c:/texlive/2020/texmf-dist/tex/latex/zref/zref-base.sty
-Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/tracklang/tracklang.tex))) (c:/texlive/2022/texmf-dist/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2022-04-07 v2.34 Module savepos for zref (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (c:/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-Package zref Info: New property list: main on input line 764.
-Package zref Info: New property: default on input line 765.
-Package zref Info: New property: page on input line 766.
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
 )
-Package zref Info: New property list: savepos on input line 80.
-Package zref Info: New property: posx on input line 82.
-Package zref Info: New property: posy on input line 83.
+Package zref Info: New property list: savepos on input line 79.
+Package zref Info: New property: posx on input line 81.
+Package zref Info: New property: posy on input line 82.
 )
-\c@zref@unique=\count281
- (c:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+\c@zref@unique=\count285
+ (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count282
-\calc@Bcount=\count283
-\calc@Adimen=\dimen153
-\calc@Bdimen=\dimen154
+\calc@Acount=\count286
+\calc@Bcount=\count287
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count284
+\calc@Ccount=\count288
 \calc@Cskip=\skip64
-) (c:/texlive/2020/texmf-dist/tex/latex/marginnote/marginnote.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count285
-) (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+\c@mn@abspage=\count289
+) (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (c:/texlive/2020/texmf-dist/tex/latex/soulpos/soulpos.sty
-Package: soulpos 2012/02/25 v1.1 Fancy underlining
-\ulp@subcnt=\count286
-\ulp@cnt=\count287
+) (c:/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (c:/texlive/2022/texmf-dist/tex/latex/soulpos/soulpos.sty
+Package: soulpos 2021/10/15 v1.2 Fancy underlining
+\ulp@subcnt=\count290
+\ulp@cnt=\count291
 \ulp@out=\write3
-\ulp@in=\read3
-\ulwidth=\dimen155
-) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
- (c:/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+\ulp@in=\read2
+\ulwidth=\dimen158
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+ (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count292
 )
-\@linkdim=\dimen156
-\Hy@linkcounter=\count288
-\Hy@pagecounter=\count289
- (c:/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count293
+\Hy@pagecounter=\count294
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel languages
-) (c:/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count290
- (c:/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count295
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4073.
- (c:/texlive/2020/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
+ (c:/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count291
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen157
- (c:/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count296
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen160
+ (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count292
-\Field@Width=\dimen158
-\Fld@charsize=\dimen159
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
- (c:/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
-with kernel methods
+\Fld@menulength=\count297
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count298
+\c@Item=\count299
+\c@Hfootnote=\count300
 )
 Package hyperref Info: Driver: hpdftex.
- (c:/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
- (c:/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
- (c:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+\Fld@listcount=\count301
+\c@bookmark@seq@number=\count302
+ (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip65
 )
 Package zref Info: New property list: pdfcomment on input line 2735.
 Package zref Info: New property: PCPDFOBJID on input line 2736.
-) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count298
-\l__pdf_internal_box=\box53
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count303
+\l__pdf_internal_box=\box57
 ) (./Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-\c@lstlisting=\count299
- (c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+\c@lstlisting=\count304
+ (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen160
-\scratchbox=\box54
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen161
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks27
-)
-Package soulpos Info: Loading soulutf8 on input line 59.
- (c:/texlive/2020/texmf-dist/tex/generic/soulutf8/soulutf8.sty
-Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
- (c:/texlive/2020/texmf-dist/tex/generic/soul/soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks28
-\SOUL@lasttoken=\toks29
-\SOUL@cmds=\toks30
-\SOUL@buffer=\toks31
-\SOUL@token=\toks32
-\SOUL@spaceskip=\skip66
-\SOUL@ttwidth=\dimen162
-\SOUL@uldp=\dimen163
-\SOUL@ulht=\dimen164
+\scratchcounter=\count305
+\scratchdimen=\dimen163
+\scratchbox=\box58
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen164
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks28
+) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 59.
- (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
- (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count306
-)
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+Package soulpos Info: Loading soulutf8 on input line 55.
+ (c:/texlive/2022/texmf-dist/tex/generic/soulutf8/soulutf8.sty
+Package: soulutf8 2019/12/15 v1.2 Permit use of UTF-8 characters in soul (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks29
+\SOUL@lasttoken=\toks30
+\SOUL@cmds=\toks31
+\SOUL@buffer=\toks32
+\SOUL@token=\toks33
+\SOUL@spaceskip=\skip66
+\SOUL@ttwidth=\dimen165
+\SOUL@uldp=\dimen166
+\SOUL@ulht=\dimen167
+))
+Package hyperref Info: Link coloring OFF on input line 55.
  (./Dissertation.out) (./Dissertation.out)
 \@outlinefile=\write4
 \openout4 = `Dissertation.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
- (c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+ (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/texlive/2020/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+) (c:/texlive/2022/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) [1
 
 \openout3 = `Dissertation.upa'.
 
-{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (17.00555pt too wide) in paragraph at lines 61--62
+\T2A/cmr/m/n/12 и нарастващи изисквания към пенсионните системи, надеждните и прецизни
  []
 
 
-Overfull \hbox (7.86888pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 нарастващи изисквания към пенсионните системи, надеждните и прецизни
- []
-
-
-Overfull \hbox (9.07622pt too wide) in paragraph at lines 63--90
+Overfull \hbox (9.07622pt too wide) in paragraph at lines 61--62
 \T2A/cmr/m/n/12 компании при разработване на застрахователни и инвестиционни продукти
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-
-Overfull \hbox (4.27934pt too wide) in paragraph at lines 63--90
+Overfull \hbox (4.27934pt too wide) in paragraph at lines 63--65
 \T2A/cmr/m/n/12 пенсионното осигуряване, животозастраховането здравното застраховане,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-
-Overfull \hbox (18.36095pt too wide) in paragraph at lines 63--90
+Overfull \hbox (18.36095pt too wide) in paragraph at lines 66--68
 \T2A/cmr/m/n/12 предизвикателства. Демографските промени, и по-специално увеличаването
  []
 
 
-Overfull \hbox (11.19728pt too wide) in paragraph at lines 63--90
+Overfull \hbox (11.19728pt too wide) in paragraph at lines 66--68
 \T2A/cmr/m/n/12 на средната продължителност на живота и намаляването на раждаемостта,
  []
 
 
-Overfull \hbox (2.06065pt too wide) in paragraph at lines 63--90
+Overfull \hbox (2.06065pt too wide) in paragraph at lines 66--68
 \T2A/cmr/m/n/12 водят до нарастващо съотношение между пенсионери и активно работещо
  []
 
 
-Overfull \hbox (5.60643pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 население [[]]. Това поставя под натиск публичните пенсионни
- []
-
-
-Overfull \hbox (13.64455pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 пазари и инфлационните процеси влияят върху доходността на пенсионните
- []
-
-
-Overfull \hbox (28.39365pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 активи и изискват по-гъвкави подходи при управлението на риска [[]]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-
-Overfull \hbox (6.13943pt too wide) in paragraph at lines 63--90
+Overfull \hbox (6.13943pt too wide) in paragraph at lines 69--70
 \T2A/cmr/m/n/12 нови възможности за прилагане на актюерската математика в практиката.
  []
 
 
-Overfull \hbox (20.43175pt too wide) in paragraph at lines 63--90
+Overfull \hbox (20.43175pt too wide) in paragraph at lines 69--70
 \T2A/cmr/m/n/12 изчисления има двойна значимост: от една страна, улеснява изследователите
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
+Overfull \hbox (4.37738pt too wide) in paragraph at lines 71--72
+\T2A/cmr/m/n/12 изчисления, много от тях са или твърде специализирани, или не предлагат
+ []
 
+[2]
+Overfull \hbox (29.24213pt too wide) in paragraph at lines 73--74
+\T2A/cmr/m/n/12 стойност на бъдещи парични потоци, моделиране на демографски и финансови
  []
 
 
-Overfull \hbox (31.10004pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 Въпреки наличието на различни софтуерни решения за актюерски изчисления,
+Overfull \hbox (10.8064pt too wide) in paragraph at lines 75--76
+[]\T2A/cmr/m/n/12 В заключение, създаването на специализирана библиотека за пенсионни
  []
 
 
-Overfull \hbox (12.43724pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 много от тях са или твърде специализирани, или не предлагат необходимата
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-
-Overfull \hbox (11.19511pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 Python би могло да включва функции за изчисляване на настояща стойност
- []
-
-
-Overfull \hbox (57.69214pt too wide) in paragraph at lines 63--90
-\T2A/cmr/m/n/12 би позволила по-добро представяне и интерпретация на резултатите [[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-
-Overfull \hbox (43.66292pt too wide) in paragraph at lines 63--90
+Overfull \hbox (43.66292pt too wide) in paragraph at lines 75--76
 \T2A/cmr/m/n/12 актюерски изчисления в Python представлява важна стъпка към модернизацията
  []
 
 
-Overfull \hbox (12.06737pt too wide) in paragraph at lines 63--90
+Overfull \hbox (12.06737pt too wide) in paragraph at lines 75--76
 \T2A/cmr/m/n/12 и усъвършенстването на актюерската практика. Тя би могла да подпомогне
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--90
-
- []
-
-[2]
-Overfull \hbox (51.00533pt too wide) in paragraph at lines 91--92
+Overfull \hbox (51.00533pt too wide) in paragraph at lines 80--81
 []\T2A/cmr/m/n/12 Първи стълб: Държавно задължително пенсионно осигуряване (солидарност
  []
 
 
-Overfull \hbox (7.11436pt too wide) in paragraph at lines 91--92
+Overfull \hbox (7.11436pt too wide) in paragraph at lines 80--81
 \T2A/cmr/m/n/12 между поколенията). Това е държавната пенсия, която се финансира
  []
 
 
-Overfull \hbox (9.1375pt too wide) in paragraph at lines 91--92
+Overfull \hbox (9.1375pt too wide) in paragraph at lines 80--81
 \T2A/cmr/m/n/12 от текущите осигурителни вноски на работещите. Тя е задължителна
  []
 
 
-Overfull \hbox (5.87436pt too wide) in paragraph at lines 92--93
+Overfull \hbox (5.87436pt too wide) in paragraph at lines 81--82
 \T2A/cmr/m/n/12 самия осигурено лице пенсионни фондове. Той също е задължителен
  []
 
 
-Overfull \hbox (42.1909pt too wide) in paragraph at lines 93--94
+Overfull \hbox (42.1909pt too wide) in paragraph at lines 82--83
 \T2A/cmr/m/n/12 (ДДПО). Това е напълно доброволно допълнително пенсионно осигуряване,
  []
 
 
-Overfull \hbox (2.55695pt too wide) in paragraph at lines 93--94
+Overfull \hbox (2.55695pt too wide) in paragraph at lines 82--83
 \T2A/cmr/m/n/12 при което хората сами решават да спестяват допълнително за своята
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
-
- []
-
 [3]
-Overfull \hbox (21.96385pt too wide) in paragraph at lines 101--102
+Overfull \hbox (21.96385pt too wide) in paragraph at lines 89--90
 []\T2A/cmr/m/n/12 Закон за допълнително задължително пенсионно осигуряване (ЗДЗПО) 
  []
 
 
-Overfull \hbox (9.7221pt too wide) in paragraph at lines 103--104
+Overfull \hbox (9.7221pt too wide) in paragraph at lines 91--92
 []\T2A/cmr/m/n/12 Наредба ќ Н-8 от 2004 г. за определяне на методиката за изчисляване
  []
 
 
-Overfull \hbox (13.57513pt too wide) in paragraph at lines 106--110
+Overfull \hbox (13.57513pt too wide) in paragraph at lines 94--95
 \T2A/cmr/m/n/12 Като изчисленията трябва да отговарят на изискванията, заложени наредба
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
-
+Overfull \hbox (29.40541pt too wide) in paragraph at lines 96--97
+\T2A/cmr/m/n/12 библиотека, която да обедини теоретичните основи на пенсионната математика
  []
 
 
-Overfull \hbox (28.65068pt too wide) in paragraph at lines 106--110
-\T2A/cmr/m/n/12 Целта на настоящата дисертация е именно изгражданетона такава библиотека,
- []
-
-
-Overfull \hbox (30.66287pt too wide) in paragraph at lines 106--110
-\T2A/cmr/m/n/12 предимствата на съвременните програмни среди. Чрез нея се цели създаването
+Overfull \hbox (27.28433pt too wide) in paragraph at lines 96--97
+\T2A/cmr/m/n/12 работа, така и практическите решения в областта на пенсионното осигуряване. 
  []
 
 [4]
-Overfull \hbox (20.37943pt too wide) in paragraph at lines 113--114
+Overfull \hbox (20.37943pt too wide) in paragraph at lines 100--101
 \T2A/cmr/m/n/12 преди да достигне възраст $\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 + 1$\T2A/cmr/m/n/12 . Тази вероятност се взима от статистическата
  []
 
 
-Overfull \hbox (19.35071pt too wide) in paragraph at lines 113--114
+Overfull \hbox (19.35071pt too wide) in paragraph at lines 100--101
 \T2A/cmr/m/n/12 статистика на държавната осигурителна институция в случая Националният
  []
 
 
-Overfull \hbox (7.70058pt too wide) in paragraph at lines 122--124
+Overfull \hbox (7.70058pt too wide) in paragraph at lines 109--111
 \T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 i$ \T2A/cmr/m/n/12 е годишният лихвен процент зададен от пенсионноосигурителната
  []
 
 
-Overfull \hbox (33.27745pt too wide) in paragraph at lines 125--126
+Overfull \hbox (33.27745pt too wide) in paragraph at lines 112--113
 \T2A/cmr/m/n/12 дисконтиране на този поток към настоящия момент. Формулата за изчисляване
  []
 
 [5]
-Overfull \hbox (15.77115pt too wide) in paragraph at lines 128--129
+Overfull \hbox (15.77115pt too wide) in paragraph at lines 115--116
 \T2A/cmr/m/n/12 Кумулативната настояща стойност ($\OML/cmm/m/it/12 N[]$\T2A/cmr/m/n/12 ) представлява сумата от настоящите
  []
 
 
-Overfull \hbox (16.92433pt too wide) in paragraph at lines 134--136
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 121--123
 \T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
  []
 
 
-Overfull \hbox (7.71259pt too wide) in paragraph at lines 134--136
+Overfull \hbox (7.71259pt too wide) in paragraph at lines 121--123
 \T2A/cmr/m/n/12 представлява фактор, който се използва за изчисляване на месечната
  []
 
 
-LaTeX Warning: Command \cyrk invalid in math mode on input line 138.
-
-Missing character: There is no к in font cmr12!
-
-Overfull \hbox (26.64807pt too wide) in paragraph at lines 138--139
+Overfull \hbox (26.64807pt too wide) in paragraph at lines 125--126
 []\T2A/cmr/bx/n/12 Пожизнена пенсия с период на гарантирано изплащане (фактор
  []
 
 
-Overfull \hbox (16.92433pt too wide) in paragraph at lines 139--141
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 126--128
 \T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
  []
 
 
-Overfull \hbox (10.51477pt too wide) in paragraph at lines 139--141
+Overfull \hbox (10.51477pt too wide) in paragraph at lines 126--128
 \T2A/cmr/m/n/12 след изтичане на гарантирания период от $\OML/cmm/m/it/12 n$ \T2A/cmr/m/n/12 години, а $\OML/cmm/m/it/12 D[]$ \T2A/cmr/m/n/12 е настоящата
  []
 
 [6]
-Overfull \hbox (16.92433pt too wide) in paragraph at lines 144--146
+Overfull \hbox (16.92433pt too wide) in paragraph at lines 131--133
 \T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 N[]$ \T2A/cmr/m/n/12 е кумулативната настояща стойност на бъдещите плащания,
  []
 
 
-Overfull \hbox (10.51477pt too wide) in paragraph at lines 144--146
+Overfull \hbox (10.51477pt too wide) in paragraph at lines 131--133
 \T2A/cmr/m/n/12 след изтичане на гарантирания период от $\OML/cmm/m/it/12 n$ \T2A/cmr/m/n/12 години, а $\OML/cmm/m/it/12 D[]$ \T2A/cmr/m/n/12 е настоящата
  []
 
 
-Overfull \hbox (10.87361pt too wide) in paragraph at lines 144--146
+Overfull \hbox (10.87361pt too wide) in paragraph at lines 131--133
 \T2A/cmr/m/n/12 който се използва за изчисляване на месечната сума на Допълнителна
  []
 
 
-Overfull \hbox (18.9268pt too wide) in paragraph at lines 146--148
+Overfull \hbox (18.9268pt too wide) in paragraph at lines 133--135
 \T2A/cmr/m/n/12 вноски по време на периода на разсрочено изплащане. Те се изчисляват
  []
 
 
-Overfull \hbox (1.8182pt too wide) in paragraph at lines 148--150
+Overfull \hbox (1.8182pt too wide) in paragraph at lines 135--137
 \T2A/cmr/m/n/12 където $\OML/cmm/m/it/12 H[]$ \T2A/cmr/m/n/12 е размера на месечното плащане повреме на разсроченият
  []
 
 
-Overfull \hbox (19.20238pt too wide) in paragraph at lines 148--150
+Overfull \hbox (19.20238pt too wide) in paragraph at lines 135--137
 \T2A/cmr/m/n/12 петиод, а $\OML/cmm/m/it/12 b[]$ \T2A/cmr/m/n/12 е броят на месеците от началото на разсроченото изплащане
  []
 
 [7]
-Overfull \hbox (31.80742pt too wide) in paragraph at lines 157--158
+Overfull \hbox (31.80742pt too wide) in paragraph at lines 144--145
 []\T2A/cmr/bx/n/12 Company \T2A/cmr/m/n/12 - представлява компания, която предлага пенсионни продукти. 
  []
 
 
-Overfull \hbox (4.5425pt too wide) in paragraph at lines 158--159
+Overfull \hbox (4.5425pt too wide) in paragraph at lines 145--146
 []\T2A/cmr/bx/n/12 Calculator \T2A/cmr/m/n/12 - съдържа методи за изчисляване на пенсията въз основа
  []
 
 
-Overfull \hbox (24.72087pt too wide) in paragraph at lines 159--160
+Overfull \hbox (24.72087pt too wide) in paragraph at lines 146--147
 []\T2A/cmr/bx/n/12 Finances \T2A/cmr/m/n/12 - съдържа методи за финансови изчисления, като изчисляване
  []
 
 
-Overfull \hbox (31.54706pt too wide) in paragraph at lines 160--161
+Overfull \hbox (31.54706pt too wide) in paragraph at lines 147--148
 []\T2A/cmr/bx/n/12 main \T2A/cmr/m/n/12 - основен скрипт, който демонстрира използването на библиотеката. 
  []
 
 
-Overfull \hbox (20.55382pt too wide) in paragraph at lines 164--165
+Overfull \hbox (20.55382pt too wide) in paragraph at lines 151--152
 []\T2A/cmr/bx/n/12 NSI_mortality_table.csv \T2A/cmr/m/n/12 - таблица на смъртността от Националната
  []
 
 
-Overfull \hbox (3.69136pt too wide) in paragraph at lines 165--166
+Overfull \hbox (3.69136pt too wide) in paragraph at lines 152--153
 []\T2A/cmr/bx/n/12 Saglasie_fund_actives.csv \T2A/cmr/m/n/12 - данни за активите на пенсионен фонд
  []
 
 [8]
-Overfull \hbox (18.87029pt too wide) in paragraph at lines 185--186
+Overfull \hbox (18.87029pt too wide) in paragraph at lines 171--172
 []\T2A/cmr/m/n/12 База данни със стойностите на активите на компанията във различните
  []
 
 
-Overfull \hbox (10.56744pt too wide) in paragraph at lines 185--186
+Overfull \hbox (10.56744pt too wide) in paragraph at lines 171--172
 \T2A/cmr/m/n/12 фондове, като Универсален, Доброволен и Професионален Пенсионен
  []
 
 
-Overfull \hbox (8.78381pt too wide) in paragraph at lines 187--188
+Overfull \hbox (8.78381pt too wide) in paragraph at lines 173--174
 []\T2A/cmr/m/n/12 Общо хора ($\OML/cmm/m/it/12 l[]$\T2A/cmr/m/n/12 ) за актюерски изчисления, константа която по принцип
  []
 
 
-Overfull \hbox (15.283pt too wide) in paragraph at lines 187--188
+Overfull \hbox (15.283pt too wide) in paragraph at lines 173--174
 \T2A/cmr/m/n/12 се задава като равна на 100 000 за актюерските изчисления в българия. 
  []
 
 
-Overfull \hbox (41.7309pt too wide) in paragraph at lines 205--208
+Overfull \hbox (41.7309pt too wide) in paragraph at lines 191--194
 \T2A/cmr/m/n/12 Съдържа класове за изчисляване на актюерските константи като: $\OML/cmm/m/it/12 q[]; p[]; l[]; v[]; D[]$
  []
 
 [9]
-Overfull \hbox (12.60031pt too wide) in paragraph at lines 209--210
+Overfull \hbox (12.60031pt too wide) in paragraph at lines 195--196
 \T2A/cmr/m/n/12 Финансов клас, който управлява всички финансови операции и изчисления.
  []
 
 
-Overfull \hbox (23.43652pt too wide) in paragraph at lines 211--212
+Overfull \hbox (23.43652pt too wide) in paragraph at lines 197--198
 []\T2A/cmr/m/n/12 Извличане на информация от базата данни на компанията за стойността
  []
 
 
-Overfull \hbox (2.8791pt too wide) in paragraph at lines 213--214
+Overfull \hbox (2.8791pt too wide) in paragraph at lines 199--200
 []\T2A/cmr/m/n/12 Изчисляване на средното и стандартното отклонение на движенията
  []
 
 
-Overfull \hbox (13.08984pt too wide) in paragraph at lines 219--220
+Overfull \hbox (2.39375pt too wide) in paragraph at lines 200--201
+[]\T2A/cmr/m/n/12 Симулация на бъдещи стойности на активите чрез различни методи. 
+ []
+
+
+Overfull \hbox (13.08984pt too wide) in paragraph at lines 205--206
 \T2A/cmr/m/n/12 Това е основният скрипт, който демонстрира използването на библиотеката.
  []
 
 
-Overfull \hbox (27.0891pt too wide) in paragraph at lines 222--223
+Overfull \hbox (27.0891pt too wide) in paragraph at lines 208--209
 []\T2A/cmr/m/n/12 Извикване на методите от класовете Cal-cu-la-tor и Fi-nances за изчисляване
  []
 
-[10] [11] [12] [13]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 240.
- (c:/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+[10]
+Overfull \hbox (1.37535pt too wide) in paragraph at lines 215--221
+\T2A/cmr/m/n/12 Той е роден на 06.06.1996 г., мъж, с месечен доход от 2000 лв., спестявания
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--221
+
+ []
+
+
+Overfull \hbox (5.7201pt too wide) in paragraph at lines 235--236
+[]\T2A/cmr/m/n/12 Допълнителна пожизнена пенсия с разсрочено изплащане: $\OML/cmm/m/it/12 P[] \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (29.36342pt too wide) in paragraph at lines 235--236
+[]$\T2A/cmr/m/n/12 , където $\OML/cmm/m/it/12 T[]$ \T2A/cmr/m/n/12 са месечните вноски по време на разсроченото
+ []
+
+[11]
+Overfull \hbox (33.80846pt too wide) in paragraph at lines 246--247
+\T2A/cmr/m/n/12 които Георги може да избере, в зависимост от неговите нужди и предпочитания.
+ []
+
+
+Overfull \hbox (12.39424pt too wide) in paragraph at lines 247--247
+[]\T2A/cmr/bx/n/14.4 Анализ на активите на пенсионен фонд "Съгласие" 
+ []
+
+<images/asset_values.png, id=186, 867.24pt x 433.62pt>
+File: images/asset_values.png Graphic file (type png)
+<use images/asset_values.png>
+Package pdftex.def Info: images/asset_values.png  used on input line 251.
+(pdftex.def)             Requested size: 312.00119pt x 156.00383pt.
+
+Overfull \hbox (2.76756pt too wide) in paragraph at lines 248--256
+\T2A/cmr/m/n/12 за стойностите на активите на пенсионен фонд "Съгласие". Това включва
+ []
+
+
+Overfull \hbox (5.42168pt too wide) in paragraph at lines 248--256
+\T2A/cmr/m/n/12 решения относно общият капитал, който лицето ще има при пенсиониране. 
+ []
+
+<images/simulated_asset_values.png, id=188, 867.24pt x 433.62pt>
+File: images/simulated_asset_values.png Graphic file (type png)
+<use images/simulated_asset_values.png>
+Package pdftex.def Info: images/simulated_asset_values.png  used on input line 259.
+(pdftex.def)             Requested size: 312.00119pt x 156.00383pt.
+
+Overfull \hbox (10.54663pt too wide) in paragraph at lines 263--264
+[]\T2A/cmr/m/n/12 Във фигура []2[] се вижда примерен симулиран път на бъдещите стойности
+ []
+
+
+Overfull \hbox (4.7233pt too wide) in paragraph at lines 263--264
+\T2A/cmr/m/n/12 спестяванията на Георги. Такава симулация се използва при изчислението
+ []
+
+[12 <./images/asset_values.png>]
+Overfull \hbox (24.99677pt too wide) in paragraph at lines 268--269
+\T2A/cmr/m/n/12 В заключение, разработената библиотека за пенсионни актюерски изчисления
+ []
+
+
+Overfull \hbox (2.87431pt too wide) in paragraph at lines 268--269
+\T2A/cmr/m/n/12 в Python предоставя гъвкав и модерен инструмент за анализ и управление
+ []
+
+
+Overfull \hbox (46.27971pt too wide) in paragraph at lines 270--271
+[]\T2A/cmr/m/n/12 Тя обединява теоретичните основи на актюерската математика с предимствата
+ []
+
+
+Overfull \hbox (13.57932pt too wide) in paragraph at lines 270--271
+\T2A/cmr/m/n/12 академични изследвания, така и за практическо приложение в индустрията.
+ []
+
+
+Overfull \hbox (16.51595pt too wide) in paragraph at lines 270--271
+\T2A/cmr/m/n/12 plotlib, библиотеката осигурява мощни възможности за числени изчисления,
+ []
+
+
+Overfull \hbox (1.66908pt too wide) in paragraph at lines 272--273
+\T2A/cmr/m/n/12 лицето може да избере, в зависимост от неговите нужди и предпочитания.
+ []
+
+
+Overfull \hbox (36.25775pt too wide) in paragraph at lines 272--273
+\T2A/cmr/m/n/12 Освен това, анализът на активите на пенсионен фонд "Съгласие" и симулацията
+ []
+
+
+Overfull \hbox (15.11304pt too wide) in paragraph at lines 272--273
+\T2A/cmr/m/n/12 на бъдещи стойности предоставят ценна информация за вземане на решения
+ []
+
+
+Overfull \hbox (57.20349pt too wide) in paragraph at lines 275--276
+\T2A/cmr/m/n/12 В бъдеще библиотеката може да бъде разширена с допълнителни функционалности,
+ []
+
+[13 <./images/simulated_asset_values.png>]
+Overfull \hbox (25.39856pt too wide) in paragraph at lines 278--279
+\T2A/cmr/m/n/12 на възможност за едновременно анализиране и сравняване на условията,
+ []
+
+
+Overfull \hbox (10.32309pt too wide) in paragraph at lines 278--279
+\T2A/cmr/m/n/12 лихвените проценти, рисковите параметри и историческите резултати
+ []
+
+
+Overfull \hbox (12.89006pt too wide) in paragraph at lines 278--279
+\T2A/cmr/m/n/12 на различни пенсионни дружества. Това ще позволи на потребителите
+ []
+
+
+Overfull \hbox (52.07385pt too wide) in paragraph at lines 279--280
+[]\T2A/cmr/bx/n/12 Сравнение между различни участници: \T2A/cmr/m/n/12 Въвеждане на функционалност
+ []
+
+
+Overfull \hbox (44.97705pt too wide) in paragraph at lines 279--280
+\T2A/cmr/m/n/12 на различни лица с различни демографски и икономически характеристики.
+ []
+
+
+Overfull \hbox (14.23882pt too wide) in paragraph at lines 280--281
+\T2A/cmr/m/n/12 и таблични сравнения, които да представят резултатите от различните
+ []
+
+
+Overfull \hbox (2.24573pt too wide) in paragraph at lines 281--282
+[]\T2A/cmr/bx/n/12 Интеграция с външни бази данни: \T2A/cmr/m/n/12 Възможност за автоматично
+ []
+
+
+Overfull \hbox (45.71565pt too wide) in paragraph at lines 282--283
+[]\T2A/cmr/bx/n/12 Моделиране на алтернативни пенсионни продукти: \T2A/cmr/m/n/12 Имплементиране
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 290.
+(c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 238--242
-\T2A/cmtt/m/n/12 bostonfed . org / -[] / media / Documents / conference / 16 / conf16b . pdf$[]
+Underfull \hbox (badness 5331) in paragraph at lines 288--291
+[]\T2A/cmr/m/n/12 Dalriada Trustees. (2023). \T2A/cmr/m/it/12 The Im-por-tance of Math-e-mat-ics in
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 275--279
-[]\T2A/cmr/m/n/12 Народно събрание на Република България. (2004).
+Underfull \hbox (badness 1609) in paragraph at lines 293--296
+[]\T2A/cmr/m/n/12 Milliman. (2022). \T2A/cmr/m/it/12 Us-ing Python as an Ac-tu-ar-ial Mod-elling Plat-
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 275--279
-\T2A/cmr/m/n/12 Доставен от: []$\T2A/cmtt/m/n/12 https : / / www . parliament . bg / bg / laws$[]  \T2A/cmr/m/n/12 Последно
+Underfull \hbox (badness 4072) in paragraph at lines 293--296
+\T2A/cmr/m/it/12 form\T2A/cmr/m/n/12 . Re-trieved from: []$\T2A/cmtt/m/n/12 https : / / www . milliman . com / en / insight /
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 287--291
-[]\T2A/cmr/m/n/12 Държавна комисия по финансов надзор (ДКФН).
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
+[]\T2A/cmr/m/n/12 Boston Fed-eral Re-serve Bank. (1999). \T2A/cmr/m/it/12 De-mo-graphic Trends
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 293--297
-[]\T2A/cmr/m/n/12 Национална осигурителна институция (НОИ). (2023).
+Underfull \hbox (badness 2980) in paragraph at lines 298--301
+\T2A/cmr/m/it/12 and Their Im-pact on Pub-lic Pen-sion Sys-tems\T2A/cmr/m/n/12 . Re-trieved from:
  []
 
-[14] [15] (c:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
+[]$\T2A/cmtt/m/n/12 https : / / www . bostonfed . org / publications / working-[]papers / 1999 /
+ []
+
+[14]
+Underfull \hbox (badness 6978) in paragraph at lines 303--306
+[]\T2A/cmr/m/n/12 National Con-fer-ence on Pub-lic Em-ployee Re-tire-ment Sys-tems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+[]\T2A/cmr/m/n/12 Hyperexponential. (2023). \T2A/cmr/m/it/12 Python for In-sur-ers and Ac-tu-ar-ies\T2A/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+\T2A/cmr/m/n/12 Re-trieved from: []$\T2A/cmtt/m/n/12 https : / / www . hyperexponential . com / blog /
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 319--322
+[]\T2A/cmr/m/n/12 Народно събрание на Република България. (2004). \T2A/cmr/m/it/12 Закон за
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 324--327
+[]\T2A/cmr/m/n/12 Народно събрание на Република България. (2000). \T2A/cmr/m/it/12 Закон за
+ []
+
+[15] [16] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (../Code/main.py) (../Code/Company.py [16]) (../Code/Person.py [17] [18]) (../Code/Calculator.py [19]
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 363.
+ (../Code/main.py) [17] (../Code/Company.py) (../Code/Person.py [18] [19]) (../Code/Calculator.py [20] [21]
 Overfull \hbox (373.22571pt too wide) in paragraph at lines 66--67
 [][][][] 
  []
 
-[20] [21]
+[22] [23]
 Overfull \hbox (373.22571pt too wide) in paragraph at lines 145--146
 [][][][] 
  []
 
-[22] [23]) (../Code/finances.py [24] [25] [26]) [27] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
+[24] [25]) (../Code/Finances.py [26] [27] [28]) [29] (./Dissertation.aux * soulpos - computing points - it may take a few seconds *
 \openout3 = `Dissertation.upb'.
 
  (./Dissertation.upa))
-
-Package rerunfilecheck Warning: File `Dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Dissertation.out':
-(rerunfilecheck)             Before: E6D85FABB2F610F45224B417FD2D9DEE;2828
-(rerunfilecheck)             After:  1FAF60CF226068DFA32B9F815E7E3008;2722.
+Package rerunfilecheck Info: File `Dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: A74A6F99ABFEE22B6A78882F81F0B742;3508.
  ) 
 Here is how much of TeX's memory you used:
- 18566 strings out of 479014
- 297057 string characters out of 5863086
- 1219105 words of memory out of 5000000
- 35234 multiletter control sequences out of 15000+600000
- 420914 words of font info for 71 fonts, out of 8000000 for 9000
+ 18860 strings out of 475071
+ 318120 string characters out of 5782907
+ 1229429 words of memory out of 5000000
+ 39430 multiletter control sequences out of 15000+600000
+ 486743 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,6n,108p,1024b,2090s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection.5.1.1} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1} has been referenced but does not exist, replaced by a fixed one
-
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Dissertation.pdf (27 pages, 386482 bytes).
+ 86i,7n,91p,1024b,2188s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Dissertation.pdf (29 pages, 546511 bytes).
 PDF statistics:
- 935 PDF objects out of 1000 (max. 8388607)
- 878 compressed objects within 9 object streams
- 542 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 933 compressed objects within 10 object streams
+ 578 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

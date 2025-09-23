@@ -5,11 +5,12 @@ import random
 
 @dataclass
 class Finances:
+    days_to_predict: int 
     csv_path: str = "Code/Data/Saglasie_fund_actives.csv" # Path to the CSV file containing fund actives data
-    
+
     data: list[list[str],list[float],list[float],list[float]] = field(init=False)
     whindow_size: int = 30  # For moving average
-    days_to_predict: int = 365  # Number of days to predict into the future
+    # Number of days to predict into the future
     
     
     def convert_csv_to_list(self):
@@ -91,12 +92,23 @@ class Finances:
         plt.legend()
         plt.tight_layout()
         plt.show()
+    
+    def plot_predicted(self, column_index: int):
+        dates = self.data[0][1:]  # Skip header
+        values = [float(x) for x in self.data[column_index][1:]]
+        predictions = self.predict_next_n(column_index)
         
+        plt.figure(figsize=(12, 6))
+        plt.plot(dates, values, label='Historical Data')
+        future_dates = [f"Day {i+1}" for i in range(len(predictions))]
+        plt.plot(future_dates, predictions, label='Predictions', linestyle='--')
+        plt.xlabel('Date')
+        plt.ylabel('Fund Actives')
+        plt.title('Fund Actives Prediction')
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
         
     def __post_init__(self):
         self.data = self.convert_csv_to_list()
 
-# Example usage:
-fin = Finances()
-predicted_dpf = fin.predict_next_n(1)
-print("Predicted next 365 DPF values:", predicted_dpf[:5], "...")  # Print first 5 as a sample

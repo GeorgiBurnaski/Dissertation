@@ -2,6 +2,7 @@ from Company import Company
 from Person import Person
 from Calculator import Simple_pension, Guaranteed_pension, Instalment_pension
 
+
 my_company = Company(name="Sagalsie", interest=0.075, risk_level=0.015, fund_data="Code/Data/Saglasie_fund_actives.csv")
 
 me = Person(name="Georgi", egn=9606067062, income=2000, savings=10000)
@@ -9,6 +10,8 @@ me = Person(name="Georgi", egn=9606067062, income=2000, savings=10000)
 my_company.add_person(me)
 
 georgi = next(person for person in my_company.people if person.name == 'Georgi')
+
+
 
 print(Simple_pension(
     q_csv="Code/Data/NSI_q_values.csv",
