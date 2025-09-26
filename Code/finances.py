@@ -112,3 +112,8 @@ class Finances:
     def __post_init__(self):
         self.data = self.convert_csv_to_list()
 
+finances = Finances(days_to_predict=3000)
+
+finances.plot_predicted(column_index=1)  # Predict for DPF
+finances.plot_predicted(column_index=2)  # Predict for PPF
+finances.plot_predicted(column_index=3)  # Predict for UPF
