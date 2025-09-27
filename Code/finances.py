@@ -101,7 +101,7 @@ class Finances:
         plt.figure(figsize=(12, 6))
         plt.plot(dates, values, label='Historical Data')
         future_dates = [f"Day {i+1}" for i in range(len(predictions))]
-        plt.plot(future_dates, predictions, label='Predictions', linestyle='--')
+        plt.plot(future_dates, predictions, label='Predictions')
         plt.xlabel('Date')
         plt.ylabel('Fund Actives')
         plt.title('Fund Actives Prediction')
@@ -112,8 +112,4 @@ class Finances:
     def __post_init__(self):
         self.data = self.convert_csv_to_list()
 
-finances = Finances(days_to_predict=3000)
 
-finances.plot_predicted(column_index=1)  # Predict for DPF
-finances.plot_predicted(column_index=2)  # Predict for PPF
-finances.plot_predicted(column_index=3)  # Predict for UPF

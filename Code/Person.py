@@ -90,5 +90,5 @@ class Person:
         self.age, self.years, self.months = self.calculate_age()
         self.sex = self.determine_sex()
         self.months_to_retirement = self.calculate_months_to_retirement()
-        self.funds_at_retirement = self.calculate_funds_at_retirement ()
+        self.funds_at_retirement = self.funds_at_retirement_after_simulation()
         

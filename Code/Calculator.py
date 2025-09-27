@@ -109,7 +109,7 @@ class Analyze_q_list:
             l_difference.append(l_list[i - 1] - l_list[i])
             i += 1
         return l_difference
-
+    
     def find_parameters(self):
         ages = []
         age_of_death = []
@@ -238,3 +238,4 @@ class Instalment_pension(Pension):
         super().__post_init__()
         self.k = self.get_k()
         self.pension = self.get_pension()
+        
