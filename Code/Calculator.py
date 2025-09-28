@@ -155,7 +155,7 @@ class Analyze_q_list:
         self.l_difference = self.calculate_l_list()
         self.age_of_death = self.find_parameters()
         self.mean, self.standard_diviation = norm.fit(self.age_of_death)
-        self.plot_age_of_death()
+        # self.plot_age_of_death() #plotting can be enabled here
 
 
 # ----------------------------------------------------------------------------------------------------------------------

@@ -112,4 +112,6 @@ class Finances:
     def __post_init__(self):
         self.data = self.convert_csv_to_list()
 
-
+#fin = Finances(days_to_predict=38*365)  
+# fin.plot_fund_actives()
+#fin.plot_predicted(column_index=3) # 1 for DPF, 2 for PPF, 3 for UPF
