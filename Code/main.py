@@ -2,7 +2,6 @@ from Company import Company
 from Person import Person
 from Calculator import Simple_pension, Guaranteed_pension, Instalment_pension
 
-
 my_company = Company(name="Sagalsie", interest=0.075, risk_level=0.015, fund_data="Code/Data/Saglasie_fund_actives.csv")
 
 me = Person(name="Georgi", egn=9606067062, income=2000, savings=10000)

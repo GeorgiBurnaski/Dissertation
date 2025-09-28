@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from math import prod, floor
 import csv
 from scipy.stats import norm
+import numpy as np
 
 ## Creates a new age object with all the actuarial factors calculated
 @dataclass
@@ -131,6 +132,20 @@ class Analyze_q_list:
 
         return age_of_death
 
+    def plot_age_of_death(self):
+            import matplotlib.pyplot as plt
+            plt.hist(self.age_of_death, bins=30, density=True, alpha=0.6, color='g')
+            plt.title(f'μ = {self.mean:.2f}, σ = {self.standard_diviation:.2f}')
+            plt.xlabel('Age of Death')
+            plt.ylabel('Density')
+            xmin, xmax = plt.xlim()
+            x = np.linspace(xmin, xmax, 100)
+            p = norm.pdf(x, self.mean, self.standard_diviation)
+            plt.plot(x, p, 'k', linewidth=2, label='Normal fit')
+            plt.legend()
+            plt.grid(True, alpha=0.3)
+            plt.show()  
+    
         # https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rv_continuous.fit.html#scipy.stats.rv_continuous.fit
         # https://www.probabilitycourse.com/chapter8/8_2_3_max_likelihood_estimation.php
 
@@ -140,6 +155,7 @@ class Analyze_q_list:
         self.l_difference = self.calculate_l_list()
         self.age_of_death = self.find_parameters()
         self.mean, self.standard_diviation = norm.fit(self.age_of_death)
+        self.plot_age_of_death()
 
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -155,9 +171,11 @@ class Pension:
     
     def create_age_data(self):
         return new_Age_Data(q=Analyze_q_list(csv_file=self.q_csv, company=self.company).q_list, company=self.company)
-
+  
+    
     def __post_init__(self):
         self.data = self.create_age_data()
+
 
 
 ## Simple Pension Calculator
@@ -238,4 +256,4 @@ class Instalment_pension(Pension):
         super().__post_init__()
         self.k = self.get_k()
         self.pension = self.get_pension()
-        
+
