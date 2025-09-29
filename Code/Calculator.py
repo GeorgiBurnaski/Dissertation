@@ -135,7 +135,7 @@ class Analyze_q_list:
     def plot_age_of_death(self):
             import matplotlib.pyplot as plt
             plt.hist(self.age_of_death, bins=30, density=True, alpha=0.6, color='g')
-            plt.title(f'μ = {self.mean:.2f}, σ = {self.standard_diviation:.2f}')
+            plt.title(f'mu = {self.mean:.2f}, sigma = {self.standard_diviation:.2f}')
             plt.xlabel('Age of Death')
             plt.ylabel('Density')
             xmin, xmax = plt.xlim()
