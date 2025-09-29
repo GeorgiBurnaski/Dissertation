@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Увод}{3}{section.1}%
+\contentsline {section}{\numberline {2}Необходими теоретични основи}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Вероятност за смърт}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Вероятност за преживяване}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Среден брой живи хора}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Дисконтиращ фактор}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Настояща стойност}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Кумулативна настояща стойност}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Актюерски фактори и изчисления на пенсии}{7}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Структура на програмната библиотека}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Company}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Person}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Calculator}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Finances}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}main}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Илюстративен пример}{14}{section.4}%
+\contentsline {section}{\numberline {5}Анализ на активите на пенсионен фонд "Съгласие"}{16}{section.5}%
+\contentsline {section}{\numberline {6}Заключение}{18}{section.6}%
+\contentsline {section}{\numberline {7}Бъдещи разработки}{18}{section.7}%
+\contentsline {section}{\numberline {8}Приложения}{21}{section.8}%
