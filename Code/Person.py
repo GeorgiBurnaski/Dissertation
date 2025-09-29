@@ -63,7 +63,7 @@ class Person:
         else:
             return int((self.retirement_age - self.age).days // 30.44)  # Approximate month length
         
-    def funds_at_retirement(self):
+    def funds_at_retirement_basic(self):
         if self.months_to_retirement <= 0:
             return self.savings
         else:
@@ -73,18 +73,8 @@ class Person:
         if self.months_to_retirement <= 0:
             return self.savings
         else:
-            finances = Finances(days_to_predict=round(self.months_to_retirement*30.44))
-            predicted_dpf = finances.predict_next_n(1)  # Predict DPF values
-            avg_growth_rate = (predicted_dpf[-1] - predicted_dpf[0]) / predicted_dpf[0] / len(predicted_dpf) if predicted_dpf[0] != 0 else 0
-            
-            adjusted_income = self.income * (1 + avg_growth_rate)  # Adjust income based on average growth rate
-            total_savings = self.savings
-            
-            for month in range(self.months_to_retirement):
-                total_savings += adjusted_income * 0.05  # Monthly contribution
-                total_savings *= (1 + avg_growth_rate / 12)  # Monthly growth
-            
-            return total_savings
+            finance_simulation = Finances(csv_path="Code/Data/Saglasie_fund_actives.csv", days_to_predict=self.months_to_retirement*30)
+            return finance_simulation.calculate_complex_asset_for_UPF(collected_amount=self.savings, added_amount=self.income*0.05/30.44)
           
     def __post_init__(self):
         self.age, self.years, self.months = self.calculate_age()

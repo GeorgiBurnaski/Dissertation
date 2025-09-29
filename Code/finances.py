@@ -109,6 +109,17 @@ class Finances:
         plt.tight_layout()
         plt.show()
         
+    def calculate_complex_asset_for_UPF(self, collected_amount: float, added_amount: float):
+        upf_values = [float(x) for x in self.data[3][1:]]  # UPF values, skip header
+        last_upf = upf_values[-1]
+        assets_at_start= collected_amount / last_upf
+        predictions = self.predict_next_n(3)  # Predict UPF values
+        for predicted_upf in predictions:
+            assets_extra = added_amount / predicted_upf
+            assets_at_start += assets_extra
+        total_funds_at_retirement = assets_at_start * predictions[-1]
+        return total_funds_at_retirement
+
     def __post_init__(self):
         self.data = self.convert_csv_to_list()
 
